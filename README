@@ -1,0 +1,7 @@
+whats this?
+detect file encoding plugin
+Iif word "euc-jp" or "shift_jis" make appearance in file,
+invoke se fenc command.
+
+setting for example:
+au BufRead *.html,*.css,*.js call AutoDetectFenc()
